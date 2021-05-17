@@ -1,0 +1,64 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Amr Diab",
+      "img": "https://lh3.googleusercontent.com/c7DIChXTLUJJPKWan3bJItuOXdu0f2KEFB--YbEDhfD3_FHVTKTEv2hIN9J6aLMAjIG5gD2-RmWChh75Fx9sAaM"
+    },
+    {
+      "id": 2,
+      "name": "Mohamed Mounir",
+      "img": "https://i.ibb.co/bFn4XL4/1-BAB-EL-GAMAL-FULL.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Tamer Hosny",
+      "img": "https://cdn.platinumlist.net/upload/artist/tamer_hosny_451-mobile1514454683.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Beyoncé",
+      "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ9VY7fp6yh3ic3hq3S5cWeOAgv1QdXcprwmbKc76k8dbD3XwFG"
+    },
+    {
+      "id": 5,
+      "name": "Taylor Swift",
+      "img": "https://lh3.googleusercontent.com/_fnSo5pFwGb7QJZL6iOTYkHwSJ9yvA16yKZRHUTDodzKTu3kUFu9apc69J8SlP-Q2HUymWy4TNxK4B9mUhubl01d"
+    },
+    {
+      "id": 6,
+      "name": "Lady Gaga",
+      "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1hQPgQNtdNIL-SZP-BrQ7kBGfjorJyN_DoTCBCZ4IAIUXwg-6"
+    },
+    {
+      "id": 7,
+      "name": "Justin Bieber",
+      "img": "https://lh3.googleusercontent.com/pW7Jv2o8g0bkXFi11hrumm_N0e7KAf5pc5bawoSdD44uTLAYQi-Eeh1t1HileeiMx-9pXN6hQROW-OBEzWQWcEs2"
+    },
+    {
+      "id": 8,
+      "name": "Michael Jackson",
+      "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQf9tcA6vC0X0IU37JpD6ValFo_PNgTnBhcNOR9KMpi5oVuS0sv"
+    },
+    {
+      "id": 9,
+      "name": "Ed Sheeran",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUmV3MzI9nvXPRCPjAUdZdQ-Iby0NQtc5A49MAN_Ev7UCfTloj"
+    },
+    {
+      "id": 10,
+      "name": "The Weeknd",
+      "img": "https://i.pinimg.com/originals/b1/9e/e5/b19ee52a68fdd58005e26c37524c82c1.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

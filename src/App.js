@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import "./App.css";
 
 function App() {
+  const [artists, setArtists] = useState([]);
+  const getData = async () => {
+    const response = await fetch("http://localhost:8888/artists");
+    const data = await response.json();
+    setArtists(data);
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+        {artists.length !== 0 ? (
+          artists.map((artist) => {
+            const { id, name, img } = artist;
+            return (
+              <React.Fragment key={id}>
+                <p>{name}</p>
+                <img
+                  src={img}
+                  alt=""
+                  width="100px"
+                  height="100px"
+                  style={{ objectFit: "cover" }}
+                />
+              </React.Fragment>
+            );
+          })
+        ) : (
+          <div>No Data</div>
+        )}
+      </div>
     </div>
   );
 }
