@@ -4,7 +4,10 @@ import "./App.css";
 function App() {
   const [artists, setArtists] = useState([]);
   const getData = async () => {
-    const response = await fetch("http://localhost:8888/artists");
+    // const response = await fetch("http://localhost:8888/artists");
+    const response = await fetch(
+      "https://my-json-server.typicode.com/NourElDeenKhaled/Music-App/artists"
+    );
     const data = await response.json();
     setArtists(data);
   };
