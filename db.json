@@ -51,14 +51,42 @@
       "img": "https://i.pinimg.com/originals/b1/9e/e5/b19ee52a68fdd58005e26c37524c82c1.jpg"
     }
   ],
-  "comments": [
+  "albums": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Ology",
+      "artist": "Gallant",
+      "img": "https://static.billboard.com/files/media/Gallant-Ology-2016-billboard-1240-compressed.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Anti",
+      "artist": "Rihanna",
+      "img": "https://static.billboard.com/files/media/Rihanna-Anti-Album-Cover-2016-billboard-1240-compressed.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Joanne",
+      "artist": "Lady Gaga",
+      "img": "https://static.billboard.com/files/media/lady-gaga-joanne-2016-billboard-1240-compressed.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The Boy Who Died Wolf",
+      "artist": "Highly Suspect",
+      "img": "https://static.billboard.com/files/media/Highly-Suspect-The-Boy-Who-Died-Wolf-album-art-2016-a-billboard-1240-compressed.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Blond",
+      "artist": "Frank Ocean",
+      "img": "https://static.billboard.com/files/media/Frank-Ocean-Blonde-2016-billboard-1240-compressed.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Coloring Book",
+      "artist": "Chance The Rapper",
+      "img": "https://static.billboard.com/files/media/Chance-the-Rapper-Coloring-Book-2016-billboard-1240-compressed.jpg"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
