@@ -246,7 +246,7 @@ header {
   }
 
   .left {
-    max-height: 30rem;
+    height: 30rem;
   }
   .left img {
     width: 100%;
