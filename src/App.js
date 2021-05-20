@@ -47,7 +47,7 @@ function App() {
               </div>
               <div className="beyond">
                 <EventCard
-                  img="https://lh3.googleusercontent.com/proxy/v7PrRHzuuGRxbMSv6yIpNXPtK1aHjKivQvCcTLok59to5FHiAATAJCZe9oO7SDzigbMVineeWO0Y3moHM23GGKsTsHvj67NjCbfhalm4f_SPSvNR-w6tHInCJp3d5P2uGgtuMpdKq_10iSQ7ayaFfO1t30VwUvOSSFWWdneClWVBYBwYqg"
+                  img="https://static.billboard.com/files/media/Marshmello-2016-Bellnjerry-billboard-1548-650-2-compressed.jpg"
                   title="All eyes on DJ Marshmello"
                 />
               </div>
